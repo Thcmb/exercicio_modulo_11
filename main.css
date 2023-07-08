@@ -1,0 +1,240 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(https://forbo.azureedge.net/forboimages/26516/0fb317e2-1908-42e4-b563-41e295ab12be.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    opacity: 0.9;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sobre .container {
+    align-items: flex-start;
+    margin-top: 50px;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+
+.sobre h2 {
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-left: 40px;
+    text-align: center;
+}
+
+section img {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.products .container {
+    background-color: #000;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.produtos h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 auto;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+}
+
+.produtos h3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: -30px ;
+}
+
+#adidas {
+    border-top: 2px solid #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contentProducts img {
+    max-width: 100%;    
+    height: auto;
+}
+
+.contentProducts li {
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    margin: 0 20px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.contentProducts li h3 {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 5px;
+}
+
+.contentProducts li h4 {
+    font-weight: 100;
+}
+
+.contentProducts li button {
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #1a4e18;
+    color: #fff;
+    font-weight: bold;
+    border: solid 1px #fff;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.contentProducts li button:hover {
+    scale: 1.1;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        max-width: 90%;
+        display: block;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+    section img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .content {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .contentProducts li {
+        margin-top: 20px;
+        list-style: none;
+        display: inline-block;
+        width: 90%;
+    }
+
+    .contentProducts li button:hover {
+        scale: 1.0;
+    }
+
+    footer a {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+        display: block;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        font-size: 30px;
+    }
+
+    section img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .content {
+        margin-left: 0px;
+        text-align: center;
+        font-size: 30px
+    }
+
+    .content h2 {
+        font-size: 40px;
+    }
+    
+    .products {
+        font-size: 30px;
+    }
+
+    .products h3 {
+        font-size: 40px;
+    }
+
+    .contentProducts li {
+        list-style: none;
+        display: inline-block;
+        width: 45%;
+        margin: 10px;
+        height: 1000px
+    }
+
+
+    .contentProducts li button:hover {
+        scale: 1.0;
+    }
+
+    footer a {
+        display: none;
+    }
+}
